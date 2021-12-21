@@ -67,6 +67,7 @@ void sendRequest(){
  
 int main() {
     cout << "CLIENT IS ESTABLISHING A CONNECTION WITH SERVER THROUGH PORT: " << PORT << endl;
+    cout << "Enter char to begin" << endl;
     sendRequest();
     return 0;
 }
